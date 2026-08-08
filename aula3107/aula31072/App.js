@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Pressable ,Button, StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   return (
@@ -10,7 +10,11 @@ export default function App() {
       color="#00570c"
       accessibilityLabel="Clique se quiser"
       />
+      <TextInput placeholder="Teste" />
       <StatusBar style="auto" />
+      <Pressable onPress={onPressFunction}>
+      <Text>I'm pressable!</Text>
+      </Pressable>
     </View>
   );
 }
