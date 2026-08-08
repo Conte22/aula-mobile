@@ -1,10 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Boa Noite !</Text>
+      <Button
+      title="Clique se quiser"
+      color="#00570c"
+      accessibilityLabel="Clique se quiser"
+      />
       <StatusBar style="auto" />
     </View>
   );
