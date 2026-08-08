@@ -10,11 +10,12 @@ export default function App() {
       color="#00570c"
       accessibilityLabel="Clique se quiser"
       />
-      <TextInput placeholder="Teste" />
-      <StatusBar style="auto" />
-      <Pressable onPress={onPressFunction}>
-      <Text>I'm pressable!</Text>
+      <Pressable onPress={() => alert('Pressionado!')}>
+        <Text>Clique</Text>
       </Pressable>
+      <TextInput placeholder="Escreva Algo" />
+      <StatusBar style="auto" />
+      
     </View>
   );
 }
