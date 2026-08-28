@@ -170,8 +170,8 @@ const styles = StyleSheet.create({
   },
 
   alerta: {
-    backgroundColor: '#f7eab1',
-    borderColor: '#fdcd1e',
+    backgroundColor: '#fff6ce',
+    borderColor: '#ff0000',
     borderWidth: 1,
     borderRadius: 10,
     padding: 12,
@@ -190,13 +190,13 @@ const styles = StyleSheet.create({
   },
 
   botao: {
-    backgroundColor: '#2855d9',
+    backgroundColor: '#282bd9',
     padding: 10,
     alignItems: 'center',
     position: 'absolute',
-    bottom: 10,
-    left: 10,
-    right: 10,
+    bottom: 60,
+    alignSelf: 'center',
+    width: '90%',
   },
 
   textoBotao: {
