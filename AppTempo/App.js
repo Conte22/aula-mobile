@@ -94,18 +94,18 @@ const styles = StyleSheet.create({
   },
 
   cidade: {
-    fontSize: 16,
+    fontSize: 20,
     fontWeight: 'bold',
   },
 
   data: {
-    fontSize: 14,
+    fontSize: 20,
     color: '#666',
   },
 
   temperatura: {
     backgroundColor: '#dbfcfe',
-    borderRadius: 12,
+    borderRadius: 15,
     padding: 20,
     alignItems: 'center',
     borderWidth: 1,
@@ -146,16 +146,16 @@ const styles = StyleSheet.create({
 
   dia: {
     backgroundColor: '#f1f3f5',
-    width: 55,
+    width: 60,
     height: 80,
-    borderRadius: 10,
+    borderRadius: 15,
     alignItems: 'center',
     justifyContent: 'space-around',
     padding: 5,
   },
 
   nomeDia: {
-    fontSize: 12,
+    fontSize: 15,
     color: '#3d3d3d',
   },
 
