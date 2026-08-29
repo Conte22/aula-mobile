@@ -9,23 +9,31 @@ export default function App() {
           <View style={styles.fotoPerfil} />
           <View>
             <Text style={styles.nomeUsuario}>Olá, Estudante</Text>
-            <Text style={styles.subtitulo}>Sua trilha do dia</Text>
+            <Text style={styles.subtitulo}>Sua musica do dia</Text>
           </View>
         </View>
         <View style={styles.iconeEngrenagem}>
-          <Text style={{ color: '#fff', fontWeight: 'bold' }}>⚙</Text>
+          <Text style={
+            { color: '#fff', fontWeight: 'bold' }
+            }>⚙</Text>
         </View>
       </View>
 
       <Text style={styles.tituloSecao}>Menu</Text>
       <View style={styles.menu}>
-        <Pressable style={[styles.botaoMenu, { backgroundColor: '#00a84e' }]}>
+        <Pressable style={
+          [styles.botaoMenu, { backgroundColor: '#00a84e' }]
+          }>
           <Text style={styles.textoBotaoMenu}>PLAYLISTS</Text>
         </Pressable>
-        <Pressable style={[styles.botaoMenu, { backgroundColor: '#0d6efd' }]}>
+        <Pressable style={
+          [styles.botaoMenu, { backgroundColor: '#0d6efd' }]
+          }>
           <Text style={styles.textoBotaoMenu}>ARTISTAS</Text>
         </Pressable>
-        <Pressable style={[styles.botaoMenu, { backgroundColor: '#d93808' }]}>
+        <Pressable style={
+          [styles.botaoMenu, { backgroundColor: '#d93808' }]
+          }>
           <Text style={styles.textoBotaoMenu}>RÁDIO</Text>
         </Pressable>
       </View>
@@ -33,88 +41,91 @@ export default function App() {
       <Text style={styles.tituloSecao}>Tocadas recentemente</Text>
 
       <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
-        <View style={[styles.cartaoMusica, styles.cartaoTocando]}>
+        <View style={
+          [styles.cartaoMusica, styles.cartaoTocando]
+
+        }>
           <View>
-            <Text style={styles.nomeMusica}>Thunderstruck</Text>
-            <Text style={styles.artista}>AC/DC · <Text style={{ color: '#2b8a3e' }}>tocando agora</Text></Text>
+            <Text style={styles.nomeMusica}>Música 1</Text>
+            <Text style={styles.artista}>Artista 1 · <Text style={{ color: '#2b8a3e' }}>tocando agora</Text></Text>
           </View>
           <Text style={styles.duracao}>4:52</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>Chop Suey!</Text>
-            <Text style={styles.artista}>System of a Down</Text>
+            <Text style={styles.nomeMusica}>Música 2</Text>
+            <Text style={styles.artista}>Artista 2</Text>
           </View>
           <Text style={styles.duracao}>3:30</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>Back in Black</Text>
-            <Text style={styles.artista}>AC/DC</Text>
+            <Text style={styles.nomeMusica}>Música 3</Text>
+            <Text style={styles.artista}>Artista 3</Text>
           </View>
-          <Text style={styles.duracao}>4:15</Text>
+          <Text style={styles.duracao}>4:10</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>Toxicity</Text>
-            <Text style={styles.artista}>System of a Down</Text>
+            <Text style={styles.nomeMusica}>Música 4</Text>
+            <Text style={styles.artista}>Artista 4</Text>
           </View>
-          <Text style={styles.duracao}>3:39</Text>
+          <Text style={styles.duracao}>3:09</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>Highway to Hell</Text>
-            <Text style={styles.artista}>AC/DC</Text>
+            <Text style={styles.nomeMusica}>Música 5</Text>
+            <Text style={styles.artista}>Artista 5</Text>
           </View>
-          <Text style={styles.duracao}>3:28</Text>
+          <Text style={styles.duracao}>3:20</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>Aerials</Text>
-            <Text style={styles.artista}>System of a Down</Text>
+            <Text style={styles.nomeMusica}>Música 6</Text>
+            <Text style={styles.artista}>Artista 6</Text>
           </View>
-          <Text style={styles.duracao}>3:55</Text>
+          <Text style={styles.duracao}>3:50</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>BYOB</Text>
-            <Text style={styles.artista}>System of a Down</Text>
+            <Text style={styles.nomeMusica}>Música 7</Text>
+            <Text style={styles.artista}>Artista 7</Text>
           </View>
-          <Text style={styles.duracao}>4:15</Text>
+          <Text style={styles.duracao}>4:00</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>You Shook Me All Night Long</Text>
-            <Text style={styles.artista}>AC/DC</Text>
+            <Text style={styles.nomeMusica}>Música 8</Text>
+            <Text style={styles.artista}>Artista 8</Text>
           </View>
           <Text style={styles.duracao}>3:30</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>Lonely Day</Text>
-            <Text style={styles.artista}>System of a Down</Text>
+            <Text style={styles.nomeMusica}>Música 9</Text>
+            <Text style={styles.artista}>Artista 9</Text>
           </View>
-          <Text style={styles.duracao}>2:47</Text>
+          <Text style={styles.duracao}>3:37</Text>
         </View>
 
         <View style={styles.cartaoMusica}>
           <View>
-            <Text style={styles.nomeMusica}>TNT</Text>
-            <Text style={styles.artista}>AC/DC</Text>
+            <Text style={styles.nomeMusica}>Música 10</Text>
+            <Text style={styles.artista}>Artista 10</Text>
           </View>
           <Text style={styles.duracao}>3:34</Text>
         </View>
 
         <View style={styles.cardPremium}>
-          <Text style={styles.textoPremium}>Assine o Premium e ouça sem anúncios!</Text>
+          <Text style={styles.textoPremium}>Assine aqui o Premium para ouvir sem anúncios!</Text>
           <Pressable 
             style={styles.botaoPremium}
             onPress={() => alert('Plano Premium selecionado!')}
