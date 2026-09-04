@@ -46,12 +46,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#5481fc',
   },
   textTitulo: {
-    fontSize: 22,
+    fontSize: 25,
     fontWeight: 'bold',
   },
   textSubtitulo: {
     fontSize: 14,
-    color: '#8A8A8A',
+    color: '#423f3f',
   },
   conteudo: {
     flex: 1,
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
   },
   textoCartao: {
     fontSize: 14,
-    color: '#333',
+    color: '#000000',
   },
   botao: {
     backgroundColor: '#5481fc',
@@ -79,6 +79,6 @@ const styles = StyleSheet.create({
   textoBotao: {
     color: '#FFFFFF',
     fontWeight: 'bold',
-    fontSize: 14,
+    fontSize: 10,
   },
 });
