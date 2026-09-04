@@ -1,0 +1,82 @@
+{"_e":"root:init","_t":1788561147594,"format":"v0-jsonl","version":"57.0.22"}
+{"_e":"env:mode","_t":1788561147595,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788561147597,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788561147781,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788561148047,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1788561148286,"plugins":[]}
+{"_e":"metro:instantiate","_t":1788561152016,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1788561163349,"id":"4","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1788561163349,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788561163353,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788561163823,"id":"4","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1788561163924,"id":"4","progress":0.16000000000000003,"total":8,"current":4}
+{"_e":"metro:bundling:progress","_t":1788561164433,"id":"4","progress":0.25,"total":8,"current":5}
+{"_e":"metro:bundling:progress","_t":1788561164533,"id":"4","progress":0.25,"total":55,"current":24}
+{"_e":"metro:bundling:progress","_t":1788561164633,"id":"4","progress":0.25,"total":178,"current":49}
+{"_e":"metro:bundling:progress","_t":1788561164734,"id":"4","progress":0.25,"total":190,"current":64}
+{"_e":"metro:bundling:progress","_t":1788561164837,"id":"4","progress":0.25,"total":221,"current":79}
+{"_e":"metro:bundling:progress","_t":1788561164937,"id":"4","progress":0.25,"total":242,"current":97}
+{"_e":"metro:bundling:progress","_t":1788561165037,"id":"4","progress":0.25,"total":290,"current":140}
+{"_e":"metro:bundling:progress","_t":1788561165138,"id":"4","progress":0.32600416233090523,"total":310,"current":177}
+{"_e":"metro:bundling:progress","_t":1788561165239,"id":"4","progress":0.4180291319857313,"total":348,"current":225}
+{"_e":"metro:bundling:progress","_t":1788561165339,"id":"4","progress":0.42039539555102273,"total":401,"current":260}
+{"_e":"metro:bundling:progress","_t":1788561165443,"id":"4","progress":0.4271861249946602,"total":459,"current":300}
+{"_e":"metro:bundling:progress","_t":1788561165543,"id":"4","progress":0.45367461238986406,"total":484,"current":326}
+{"_e":"metro:bundling:progress","_t":1788561165644,"id":"4","progress":0.5130825192604318,"total":497,"current":356}
+{"_e":"metro:bundling:progress","_t":1788561165745,"id":"4","progress":0.6132603401844231,"total":521,"current":408}
+{"_e":"metro:bundling:progress","_t":1788561165849,"id":"4","progress":0.6717682745421588,"total":571,"current":468}
+{"_e":"metro:bundling:progress","_t":1788561165950,"id":"4","progress":0.7318816547625787,"total":609,"current":521}
+{"_e":"metro:bundling:progress","_t":1788561166051,"id":"4","progress":0.7839337159812603,"total":637,"current":564}
+{"_e":"metro:bundling:progress","_t":1788561166159,"id":"4","progress":0.8419113105296895,"total":655,"current":601}
+{"_e":"metro:bundling:progress","_t":1788561166259,"id":"4","progress":0.8858131487889274,"total":680,"current":640}
+{"_e":"metro:bundling:progress","_t":1788561166359,"id":"4","progress":0.9685059208868732,"total":693,"current":682}
+{"_e":"metro:bundling:progress","_t":1788561166469,"id":"4","progress":0.9942446162662258,"total":694,"current":692}
+{"_e":"metro:bundling:progress","_t":1788561166826,"id":"4","progress":0.9971202318763547,"total":694,"current":693}
+{"_e":"metro:bundling:progress","_t":1788561166932,"id":"4","progress":0.9971326179630265,"total":697,"current":696}
+{"_e":"metro:bundling:progress","_t":1788561166972,"id":"4","progress":0.999,"total":697,"current":697}
+{"_e":"metro:bundling:progress","_t":1788561167074,"id":"4","progress":0.999,"total":708,"current":708}
+{"_e":"metro:bundling:done","_t":1788561167175,"id":"4","total":708,"ms":3825.7866}
+{"_e":"metro:bundling:started","_t":1788561270786,"id":"7","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1788561270786,"id":"7","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788561270825,"id":"7","total":1,"ms":39.2267}
+{"_e":"metro:bundling:started","_t":1788561877850,"id":"a","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1788561877851,"id":"a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788561877883,"id":"a","total":1,"ms":32.5719}
+{"_e":"metro:bundling:started","_t":1788562143680,"id":"c","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1788562143681,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788562143714,"id":"c","total":1,"ms":33.8886}
+{"_e":"metro:bundling:started","_t":1788562299240,"id":"d","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1788562299241,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788562299269,"id":"d","total":1,"ms":28.4079}
+{"_e":"metro:bundling:started","_t":1788562320838,"id":"e","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1788562320838,"id":"e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788562320872,"id":"e","total":1,"ms":33.6476}
+{"_e":"metro:server_log","_t":1788562343008,"level":"info","data":["Launching DevTools..."]}
+{"_e":"metro:bundling:started","_t":1788562355351,"id":"f","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:progress","_t":1788562355351,"id":"f","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788562355391,"id":"f","total":1,"ms":39.662}
+{"_e":"metro:client_log","_t":1788562588238,"level":"error","data":["[ReferenceError: Property 'Pressable' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1788562605926,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (26:4)\n\n  24 |\n  25 |       </View>\n> 26 |     </View>\n     |     ^\n  27 |   );\n  28 | }\n  29 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788562616573,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Expected corresponding JSX closing tag for <Text>. (20:8)\n\n  18 |             <Text style={styles.textoBotaoPremium}>ASSINAR AGORA</Text>\n  19 |           </Pressable>\n> 20 |         </View>\n     |         ^\n  21 |           </View>\n  22 |         </View>\n  23 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1788562621029,"level":"error","data":["[ReferenceError: Property 'Pressable' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1788563121250,"level":"error","data":["[ReferenceError: Property 'TouchableOpacity' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1788563125476,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (24:6)\n\n  22 |\n  23 |       </View>\n> 24 |       </View>\n     |       ^\n  25 |     </View>\n  26 |   );\n  27 | }","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563127552,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (24:6)\n\n  22 |\n  23 |       </View>\n> 24 |       </View>\n     |       ^\n  25 |     </View>\n  26 |   );\n  27 | }","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563138336,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (24:6)\n\n  22 |\n  23 |       </View>\n> 24 |       </View>\n     |       ^\n  25 |     </View>\n  26 |   );\n  27 | }","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563146139,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (24:4)\n\n  22 |\n  23 |       </View>\n> 24 |     </View>\n     |     ^\n  25 |   );\n  26 | }\n  27 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563147878,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (24:4)\n\n  22 |\n  23 |       </View>\n> 24 |     </View>\n     |     ^\n  25 |   );\n  26 | }\n  27 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1788563151553,"level":"error","data":["[ReferenceError: Property 'TouchableOpacity' doesn't exist]"]}
+{"_e":"metro:client_log","_t":1788563169857,"level":"error","data":["[ReferenceError: Property 'TouchableOpacity' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1788563224102,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563225136,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563225390,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563225553,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563225778,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563226031,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563226250,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563226448,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563226645,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563226860,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563227036,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563227265,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788563227480,"id":null,"message":"SyntaxError: C:\\Users\\gabriel.conte\\Documents\\Android\\Prova\\my-new-app\\App.js: Unexpected token (56:0)\n\n  54 |     color: '#888',\n  55 |   },\n> 56 | });\n     | ^\n  57 |","importStack":null,"filename":"App.js","targetModuleName":null,"originModulePath":null}
