@@ -8,22 +8,20 @@ export default function App() {
       
       <View style={styles.cabecalho}>
         <View style={styles.redondo} />
-        <View style={styles.Cabecalho}>
-          <Text style={styles.Titulo}>React Native</Text>
+        <View>
+          <Text style={styles.titulo}>React Native</Text>
           <Text style={styles.subtitulo}>Avaliação dia 04/09/26</Text>
         </View>
       </View>
 
-      <View style={styles.espacoTela}>
-        
+      <View style={styles.conteudo}>
         <View style={styles.cartao}>
           <Text style={styles.textoCartao}>Batatas são macias.</Text>
         </View>
-
-        <TouchableOpacity style={styles.botao} activeOpacity={0}>
+        
+        <TouchableOpacity style={styles.botao} activeOpacity={0.8}>
           <Text style={styles.textoBotao}>ENVIAR</Text>
         </TouchableOpacity>
-
       </View>
     </View>
   );
@@ -32,33 +30,57 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#c6dbfa', 
-    paddingHorizontal: 20,     
-    paddingTop: 50,           
+    backgroundColor: '#EDF1F7',
+    paddingHorizontal: 20,
+    paddingTop: 50,
   },
   cabecalho: {
     flexDirection: 'row',
-    alignItems: 'center',       
-    gap: 16,                    
-    marginBottom: 20,           
-  },
-  Titulo: {
-    fontSize: 22,
-    fontWeight: 'bold',         
-    color: '#000',
+    alignItems: 'center',
+    gap: 16,
+    marginBottom: 20,
   },
   redondo: {
-    width: 55,
-    height: 55,
+    width: 60,
+    height: 60,
     borderRadius: 30,
-    backgroundColor: '#c4b5fd',
+    backgroundColor: '#1E56F0',
   },
-  nomesubtitulo: {
-    fontSize: 20,
+  titulo: {
+    fontSize: 22,
     fontWeight: 'bold',
   },
   subtitulo: {
     fontSize: 14,
-    color: '#888',
+    color: '#8A8A8A',
+    marginTop: 2,
+  },
+  conteudo: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 20,
+  },
+  cartao: {
+    width: '100%',
+    backgroundColor: '#FFFFFF',
+    borderRadius: 10,
+    padding: 24,
+    alignItems: 'center',
+  },
+  textoCartao: {
+    fontSize: 16,
+    color: '#333',
+  },
+  botao: {
+    backgroundColor: '#1E56F0',
+    paddingVertical: 12,
+    paddingHorizontal: 48,
+    borderRadius: 4,
+  },
+  textoBotao: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+    fontSize: 14,
   },
 });
