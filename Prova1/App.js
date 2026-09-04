@@ -6,8 +6,8 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       
-      <View style={styles.cabecalho}>
-        <View style={styles.circulo} />
+      <View style={styles.cabecalho1}>
+        <View style={styles.circuloFoto} />
         <View>
           <Text style={styles.textTitulo}>React Native</Text>
           <Text style={styles.textSubtitulo}>Avaliação dia 04/09/2026</Text>
@@ -31,20 +31,20 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#EDF1F7',
-    paddingHorizontal: 20,
-    paddingTop: 50,
+    paddingHorizontal: 30,
+    paddingTop: 70,
   },
-  cabecalho: {
+  cabecalho1: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 16,
-    marginBottom: 20,
+    gap: 36,
+    marginBottom: 50,
   },
-  circulo: {
+  circuloFoto: {
     width: 60,
     height: 60,
     borderRadius: 30,
-    backgroundColor: '#1E56F0',
+    backgroundColor: '#5481fc',
   },
   textTitulo: {
     fontSize: 22,
@@ -59,21 +59,21 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    gap: 20,
+    gap: 50,
   },
   cartao: {
     width: '100%',
     backgroundColor: '#FFFFFF',
-    borderRadius: 10,
-    padding: 24,
+    borderRadius: 30,
+    padding: 20,
     alignItems: 'center',
   },
   textoCartao: {
-    fontSize: 16,
+    fontSize: 20,
     color: '#333',
   },
   botao: {
-    backgroundColor: '#1E56F0',
+    backgroundColor: '#5481fc',
     paddingVertical: 12,
     paddingHorizontal: 48,
     borderRadius: 4,
