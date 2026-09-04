@@ -8,8 +8,10 @@ export default function App() {
         <View style={styles.titulo}>
           <View style={styles.redondo} />
           <View>
-            <Text style={styles.texto}>Olá, Estudante</Text>
-            <Text style={styles.subtitulo}>Sua musica do dia</Text>
+            <Text style={styles.texto}>React Native</Text>
+            <Text style={styles.subtitulo}>Avaliação dia 04/09/2026
+          </Text>
+          
           </View>
         </View>
 
@@ -22,8 +24,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 15,
+    paddingTop: 45,
   },
   cabecalho: {
     flexDirection: 'row',
@@ -40,7 +42,7 @@ const styles = StyleSheet.create({
     width: 55,
     height: 55,
     borderRadius: 30,
-    backgroundColor: '#c4b5fd',
+    backgroundColor: '#3d0ef8',
   },
   nomesubtitulo: {
     fontSize: 20,
