@@ -10,8 +10,8 @@ export default function App() {
           <View>
             <Text style={styles.texto}>React Native</Text>
             <Text style={styles.subtitulo}>Avaliação dia 04/09/2026
-          </Text>
-          
+            
+            </Text>
           </View>
         </View>
 
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     width: 55,
     height: 55,
     borderRadius: 30,
-    backgroundColor: '#3d0ef8',
+    backgroundColor: '#c4b5fd',
   },
   nomesubtitulo: {
     fontSize: 20,
