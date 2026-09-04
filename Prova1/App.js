@@ -38,7 +38,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 36,
-    marginBottom: 50,
   },
   circuloFoto: {
     width: 60,
@@ -53,7 +52,6 @@ const styles = StyleSheet.create({
   textSubtitulo: {
     fontSize: 14,
     color: '#8A8A8A',
-    marginTop: 2,
   },
   conteudo: {
     flex: 1,
@@ -62,21 +60,21 @@ const styles = StyleSheet.create({
     gap: 50,
   },
   cartao: {
-    width: '100%',
+    width: 350,
     backgroundColor: '#FFFFFF',
     borderRadius: 30,
     padding: 20,
     alignItems: 'center',
   },
   textoCartao: {
-    fontSize: 20,
+    fontSize: 14,
     color: '#333',
   },
   botao: {
     backgroundColor: '#5481fc',
-    paddingVertical: 12,
-    paddingHorizontal: 48,
-    borderRadius: 4,
+    paddingVertical: 15,
+    paddingHorizontal: 50,
+    borderRadius: 6,
   },
   textoBotao: {
     color: '#FFFFFF',
