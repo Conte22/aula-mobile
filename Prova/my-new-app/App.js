@@ -1,19 +1,28 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <StatusBar style="auto" />
+      
       <View style={styles.cabecalho}>
-        <View style={styles.titulo}>
-          <View style={styles.redondo} />
-          <View>
-            <Text style={styles.texto}>React Native</Text>
-            <Text style={styles.subtitulo}>Avaliação dia 04/09/2026
-            
-            </Text>
-          </View>
+        <View style={styles.redondo} />
+        <View style={styles.Cabecalho}>
+          <Text style={styles.Titulo}>React Native</Text>
+          <Text style={styles.subtitulo}>Avaliação dia 04/09/26</Text>
         </View>
+      </View>
+
+      <View style={styles.espacoTela}>
+        
+        <View style={styles.cartao}>
+          <Text style={styles.textoCartao}>Batatas são macias.</Text>
+        </View>
+
+        <TouchableOpacity style={styles.botao} activeOpacity={0}>
+          <Text style={styles.textoBotao}>ENVIAR</Text>
+        </TouchableOpacity>
 
       </View>
     </View>
@@ -23,20 +32,20 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    padding: 15,
-    paddingTop: 45,
+    backgroundColor: '#c6dbfa', 
+    paddingHorizontal: 20,     
+    paddingTop: 50,           
   },
   cabecalho: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 20,
+    alignItems: 'center',       
+    gap: 16,                    
+    marginBottom: 20,           
   },
-  titulo: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 12,
+  Titulo: {
+    fontSize: 22,
+    fontWeight: 'bold',         
+    color: '#000',
   },
   redondo: {
     width: 55,
