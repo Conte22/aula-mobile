@@ -4,8 +4,20 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <View style={styles.cabecalho}>
+        <View style={styles.usuarioInfo}>
+          <View style={styles.fotoPerfil} />
+          <View>
+            <Text style={styles.nomeUsuario}>Olá, Estudante</Text>
+            <Text style={styles.subtitulo}>Sua musica do dia</Text>
+          </View>
+        </View>
+        <View style={styles.iconeEngrenagem}>
+          <Text style={
+            { color: '#fff', fontWeight: 'bold' }
+            }>⚙</Text>
+        </View>
+      </View>
     </View>
   );
 }
