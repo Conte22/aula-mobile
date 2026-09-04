@@ -5,18 +5,14 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.cabecalho}>
-        <View style={styles.usuarioInfo}>
-          <View style={styles.fotoPerfil} />
+        <View style={styles.titulo}>
+          <View style={styles.redondo} />
           <View>
             <Text style={styles.texto}>Olá, Estudante</Text>
             <Text style={styles.subtitulo}>Sua musica do dia</Text>
           </View>
         </View>
-        <View style={styles.iconeEngrenagem}>
-          <Text style={
-            { color: '#fff', fontWeight: 'bold' }
-            }>⚙</Text>
-        </View>
+
       </View>
     </View>
   );
@@ -35,18 +31,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 20,
   },
-  usuarioInfo: {
+  titulo: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 12,
   },
-  fotoPerfil: {
+  redondo: {
     width: 55,
     height: 55,
     borderRadius: 30,
     backgroundColor: '#c4b5fd',
   },
-  nomeUsuario: {
+  nomesubtitulo: {
     fontSize: 20,
     fontWeight: 'bold',
   },
